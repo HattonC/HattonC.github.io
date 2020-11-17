@@ -1,0 +1,237 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+@font-face{
+    font-family:"l font", sans-serif;
+    src: url(../fonts/sans-serif/lato-regular);
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:"2 font", sans-serif;
+    src: url(../fonts/sans-serif/opensans-regular);   
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:"3 font", sans-serif;
+    src: url(../fonts/sans/rozhaone-regular);
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:"4 font", sans-serif;
+    src: url(../fonts/sans/ultra-regular);
+    font-weight:normal;
+    font-style:normal;
+}
+header {
+	letter-spacing: .125rem;
+	font-family:"4 font", serif;
+	font-size: 1.75rem;
+	margin: 1rem;
+	text-align:center;
+	transform: rotate(-5deg);
+	padding: 1rem;
+}
+.highlight {
+	border-color: #c52a5d;
+    background-color: #c52a5d;
+    color: white;
+    border-radius: 1.25rem .75rem;
+    padding: .5rem;
+    font-weight: bold;
+}
+	
+h3{
+    margin: .5rem;
+    margin-bottom: 0;
+    padding: .5rem;
+}	
+	
+.article-image{
+	float:left;
+	margin: 1rem;
+	width:2rem
+	padding:23rem;
+}
+nav{
+    border-top: .125rem solid black;
+    border-bottom: .125rem solid black;
+    word-spacing: 8rem;
+    text-align: left;
+    color: blue;
+    width: 100%;
+}	
+	
+li{
+    display: inline;
+}	
+	
+li:nth-child(2){
+    text-decoration-line: line-through;
+}	
+p{
+    letter-spacing: .125rem;
+    word-spacing: .0025rem;
+    font-size: .75rem;
+    padding: .5rem;
+    margin: .25rem;
+    font-family: "2 font", sans-serif;
+}	
+footer{
+    text-align:right;
+    font-family: "3 font", sans-serif;
+    font-size: .80rem;
+}	
+.copyright{
+    text-align: left;
+}	
+.expand{
+    text-decoration: none;
+    font-size: .1rem;
+    display: block;
+	padding: 1rem;
+	text-align:left;
+	border-bottom: .125rem solid black;
+}
+
+.main-section{
+    display: flex;
+}
+
+footer a{
+    text-align: right;
+}
+
+article{
+    width:85%;
+	height:100%;
+} 
+
+aside{
+    width:15%;
+	border-left: .125rem solid black;
+	padding-left: 2rem;
+	padding-right: 1rem;
+	
+}
+.prisoner {
+	max-width: 100%;
+	max-height:100%;
+	
+}
+time{
+    font-family:"2 font", sans-serif;
+    font-style: italic;
+    text-align: left;
+}
+
+button{
+    font-family: "4 font", serif;
+    font-weight: 200;
+    font-size: 2rem;
+    background-color: dodgerblue;
+    border-color:blue;
+    color: white;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 25%;
+    margin-top: 8rem;
+}
+
+.subsection{
+	display: grid;
+	grid-template-columns:repeat(3, auto);
+	width: 100%;
+}
+a{
+    outline: none;
+    text-decoration-line: none;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
