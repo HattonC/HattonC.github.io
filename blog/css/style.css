@@ -166,7 +166,7 @@ aside{
 	padding-right: 1rem;
 	
 }
-.prisoner {
+.Sister {
 	max-width: 100%;
 	max-height:100%;
 	
@@ -181,26 +181,34 @@ button{
     font-family: "4 font", serif;
     font-weight: 200;
     font-size: 2rem;
-    background-color: dodgerblue;
+    background-color: maroon;
     border-color:blue;
     color: white;
     border-radius: 1rem;
-    text-align: center;
-    margin: 25%;
-    margin-top: 8rem;
+    text-align: left;
+    margin: 10%;
+    margin-top: 3rem;
 }
 
 .subsection{
 	display: grid;
-	grid-template-columns:repeat(3, auto);
+	grid-template-columns:repeat(3, 1fr);
+	
 	width: 100%;
+	
+}
+figcaption{
+	background-color: #f5f5f5;
 }
 a{
     outline: none;
     text-decoration-line: none;
 }
 	
-	
+a:hover{
+    text-decoration-line: none;
+    color:red;
+}
 	
 	
 	
